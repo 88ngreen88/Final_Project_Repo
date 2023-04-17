@@ -41,9 +41,11 @@ The last EDA I performed on my model was to check for images that met the follow
 
 <img width="585" alt="Screenshot 2023-04-17 at 5 18 17 PM" src="https://user-images.githubusercontent.com/115309980/232612920-d1b0185f-093c-4c21-ab33-6501c6cda80c.png">
 
-These two images came back as near duplicates. However, the images are not the same, so I did not discard any of my images. 
+These two images came back as near duplicates according to ImageLab. However, the images are not the same, so I did not discard any of my images. 
 
 ## Models
+
+
 
 ## Choosing My Model
 
