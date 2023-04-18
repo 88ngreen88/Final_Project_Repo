@@ -45,10 +45,18 @@ These two images came back as near duplicates according to ImageLab. However, th
 
 ## Models
 
+For this project, I ran eleven different CNN models. Model details are briefly give below:
 
+<img width="786" alt="Screenshot 2023-04-17 at 7 59 29 PM" src="https://user-images.githubusercontent.com/115309980/232635818-1ffa0c74-3c32-4637-943e-924ed0fd1b17.png">
 
 ## Choosing My Model
 
+Out of the 11 different models I ran, three models had an accuracy of around 95%. I ended up choosing Model three as my best model because it had the fewest false negative results. See the chart below for more details on the models:
+
+<img width="794" alt="Screenshot 2023-04-17 at 8 08 26 PM" src="https://user-images.githubusercontent.com/115309980/232636615-10bc510f-9669-489d-bdf1-d7d1b47f83aa.png">
+
 ## Conclusions
+
+In this project, we built a CNN model that can accurately identify malaria-infected cells in blood samples. The model achieved an accuracy of 94.07% on the test set, which demonstrates its effectiveness in detecting malaria.
 
 ## Next steps
