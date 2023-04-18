@@ -11,8 +11,7 @@ In addition to its devastating human toll, malaria also has significant economic
 
 In the United States, malaria was once a significant public health problem in the southern states, but its incidence has declined substantially since the 1940s, due to the use of effective control measures such as mosquito eradication programs and insecticides. However, in recent years, there have been slight increased in the number of cases of malaria in the United States (see bar chart below). Most of these cases come from individuals contracting malaria while abroad in countries where malaria is endemic:
 
-![download-1](https://user-images.githubusercontent.com/115309980/232603263-4d23b500-109a-4a9c-8343-06ab0b28541e.png)
-
+![download-5](https://user-images.githubusercontent.com/115309980/232851425-dda0bf2f-9c8b-4029-8b5f-9884bdb7f1e9.png)
 
 
 ## Diagnosing Malaria with CNN
