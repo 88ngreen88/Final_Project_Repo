@@ -3,28 +3,30 @@
 
 ## Background on Malaria
 
-Malaria is a parasitic disease that is spread by infected mosquitoes. It is a major public health issue, particularly in developing countries with warm and humid climates, where transmission is more common. According to the World Health Organization (WHO), in 2020, there were an estimated 241 million cases of malaria worldwide, with approximately 627,000 deaths, the majority of which were young children in sub-Saharan Africa. Looking at the barchart below, we can see that out all the regions in the world, Africa carries the largest malaria burden. In addition, this burden has only increased in the last few years:
+Malaria is a parasitic disease that is spread through the saliva of infected mosquitoes. Once in the body, the malaria parasite infects and untlimatley destroys red blood cells. This disease can cause flu like symptoms in most hosts and potentially death if left untreated, especially in vulnerable populations like children. 
+
+Malaria is a major public health issue, particularly in developing nations with warm and humid climates, where transmission is more common. According to the World Health Organization (WHO), in 2020, there were an estimated 241 million cases of malaria worldwide, with approximately 627,000 deaths, the majority of which were young children in sub-Saharan Africa. Looking at the barchart below, we can see that out all the regions in the world, Africa carries the largest malaria burden. In addition, this burden has only increased in the last few years:
 
 ![download-5](https://user-images.githubusercontent.com/115309980/232851698-93ebfde0-35a0-4f60-8145-5b64b434a3df.png)
 
 
 In addition to its devastating human toll, malaria also has significant economic and social impacts, particularly in affected countries. The disease has been estimated to cost the African continent over US$12 billion per year in lost productivity, treatment costs, and other expenses. This is especially concerning given that Malaria funding through global and prive efforts has decreased over the last few years.
 
-In the United States, malaria was once a significant public health problem in the southern states, but its incidence has declined substantially since the 1940s, due to the use of effective control measures such as mosquito eradication programs and insecticides. However, in recent years, there have been slight increased in the number of cases of malaria in the United States (see bar chart below). Most of these cases come from individuals contracting malaria while abroad in countries where malaria is endemic:
+In the United States, malaria was once a significant public health problem in the southern states, but its incidence has declined substantially since the 1940s, due to the use of effective control measures such as mosquito eradication programs and insecticides. However, in recent years, there have been a slight increase in the number of cases of malaria in the United States (see bar chart below). Most of these cases come from individuals contracting malaria while abroad in countries where malaria is endemic:
 
 ![download-1](https://user-images.githubusercontent.com/115309980/232851683-25b9b848-2da7-4bee-b481-b5d22849eb0f.png)
 
 ## Diagnosing Malaria with CNN
 
-For my capstone project, I wanted to create a convolutinal neural network that could help diagnose a blood sample smear as postitive or negative for Malaria. My hope is that this model could help the WHO and CDC with malaria diagnosis given rising malaria cases and reduced global funding. 
+For my capstone project, I wanted to create a convolutinal neural network (CNN) that could help diagnose a blood sample smear as postitive or negative for Malaria. Despite reduced global funding for malaria, the WHO still wants to reduce global malaria incidence by at least 90% by 2030.  My hope is that by launching my CNN through Streamlit, the model could help the WHO by assisting microscopist and field workers in achieving faster, cheaper and more accurate malaria  diagnoses. In addition, if the WHO are able to use this model to diagnose more patients with Malaria, then this allows the WHO to more accurately and intentionally distribute malaria aid in areas impacted the most by malaria outbreaks.
 
 The model was built using Python 3 and the TensorFlow and Keras libraries.
 
 ## My Data
 
-The dataset used in this project is the Malaria Cell Images Dataset from Tensorflow. The dataset contains 27,558 blood cell images with equal instances of parasitized and uninfected cells.
+The dataset used in this project is the Malaria Cell Images Dataset from the National Library of Medicine. The dataset contains 27,558 blood cell images with equal instances of parasitized and uninfected cells.
 
-The images are provided in PNG format and are divided into two subdirectories: Parasitized and Uninfected. The Parasitized directory contains images of blood cells infected with malaria, while the Uninfected directory contains images of normal blood cells. Below are some example of the parasitized and uninfected blood cell images in the dataset:
+The images are provided in PNG format and are divided into two subdirectories: Parasitized and Uninfected. The Parasitized directory contains images of blood cells infected with malaria at various stages of infections, while the Uninfected directory contains images of normal blood cells. Below are some examples of the parasitized and uninfected blood cell images in the dataset:
 
 ![download-2](https://user-images.githubusercontent.com/115309980/232607619-9acb3814-c89f-41bc-bc1a-2768858f37ee.png)
 
@@ -50,12 +52,17 @@ For this project, I ran eleven different CNN models. Model details are briefly g
 
 ## Choosing My Model
 
-Out of the 11 different models I ran, three models had an accuracy of around 95%. I ended up choosing Model three as my best model because it had the fewest false negative results. See the chart below for more details on the models:
+Out of the 11 different models I ran, three models had an accuracy of around 95%. I ended up choosing Model Three as my best model because it had the fewest false negative results. See the chart below for more details on the models:
 
-<img width="794" alt="Screenshot 2023-04-17 at 8 08 26 PM" src="https://user-images.githubusercontent.com/115309980/232636615-10bc510f-9669-489d-bdf1-d7d1b47f83aa.png">
+<img width="1439" alt="Screenshot 2023-04-19 at 1 09 15 PM" src="https://user-images.githubusercontent.com/115309980/233149462-5cadadef-4dc9-4146-8787-7ba03af2df84.png">
+
+Looking at the chart above my final model has a test accuracy of 96%.
 
 ## Conclusions
 
-In this project, we built a CNN model that can accurately identify malaria-infected cells in blood samples. The model achieved an accuracy of 94.07% on the test set, which demonstrates its effectiveness in detecting malaria.
+In this project, I built a CNN model that can accurately identify malaria-infected cells in blood samples. The model achieved a test accuracy of 96%, which demonstrates its effectiveness in detecting malaria. In addition, the model was faster and simpler than transfer learning models I looked at like VGG19. By launching this model on Streamlit, workers for the WHO will be able to easily use this model. 
 
-## Next steps
+My next step will be to connect my Streamlit website to mongoDB in order to save results in a database
+
+
+
