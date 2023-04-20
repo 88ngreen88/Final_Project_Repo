@@ -64,7 +64,7 @@ Looking at the chart above my final model (model 3) has a test accuracy of 96%. 
 
 <img width="454" alt="Screenshot 2023-04-19 at 4 44 21 PM" src="https://user-images.githubusercontent.com/115309980/233455452-ba777a29-ae73-4d94-ac61-c7aa2b56f382.png">
 
-### Conclusions
+## Conclusions
 
 In this project, I built a CNN model that can accurately identify malaria-infected cells in blood samples. The model achieved a test accuracy of 96%, which demonstrates its effectiveness in detecting malaria. In addition, the model was faster and simpler than transfer learning models I looked at like VGG19. By launching this model on Streamlit, workers for the WHO will be able to easily use this model. 
 
@@ -72,7 +72,7 @@ Given that my model is categorizing  blood samples as being infected/uninfected 
 
 Next, I would recommend the WHO train field works, local doctors, and microscopist on how to use the Streamlit app.
 
-### Next Steps
+## Next Steps
 
 1. Continue to run models with the goal of reducing false negatives.
 
@@ -80,6 +80,18 @@ Next, I would recommend the WHO train field works, local doctors, and microscopi
 
 3. Connect Streamlit website to mongoDB in order to save results in a database to improve the WHO’s malaria surveillance system
 
+## file tree
+
+├── Malaria_Data
+├── cell_images
+├── streamlit_images
+├── .gitignore
+├── Final_Clean_Notebook.ipynb
+├── ReadME.md
+├── Streamlit.ipynd
+├── Streamlit.py
+├── cnn_model_3(3).pkl
+└── requirements.txt
 
 
 
