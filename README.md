@@ -60,7 +60,9 @@ Out of the 11 different models I ran, three models had an accuracy of around 95%
 
 <img width="1439" alt="Screenshot 2023-04-19 at 1 09 15 PM" src="https://user-images.githubusercontent.com/115309980/233149462-5cadadef-4dc9-4146-8787-7ba03af2df84.png">
 
-Looking at the chart above my final model has a test accuracy of 96%.
+Looking at the chart above my final model has a test accuracy of 96%. Below is the architecture of my final model:
+
+<img width="454" alt="Screenshot 2023-04-19 at 4 44 21 PM" src="https://user-images.githubusercontent.com/115309980/233455452-ba777a29-ae73-4d94-ac61-c7aa2b56f382.png">
 
 ### Conclusions
 
