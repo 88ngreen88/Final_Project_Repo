@@ -80,7 +80,7 @@ Next, I would recommend the WHO train field works, local doctors, and microscopi
 
 3. Connect Streamlit website to mongoDB in order to save results in a database to improve the WHO’s malaria surveillance system
 
-## file tree
+## File Tree
 
 ├── Malaria_Data
 
