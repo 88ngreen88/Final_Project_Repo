@@ -38,7 +38,7 @@ When performing EDA on the large set of images, I first noticed that all of the 
 
 ![download-3](https://user-images.githubusercontent.com/115309980/232609968-79a1fff4-9b91-424c-a30c-b2d3e440eb5a.png)
 
-In addition to resizing all images, I also looked at the average pixel density for the parasitized cells (label 1) and uninfected cells (label 0). I did this to ensure that the there is a difference is pixel value between the two groups to esnure that my mmodels will be able to tell the difference between the two groups of images. Looking at the histogram below, there does seem to be a distinct difference in pixel value between the two sets of images:
+After preprocessing my train images, I also looked at the average pixel density for the parasitized cells (label 1) and uninfected cells (label 0). I did this to ensure that there is a difference in pixel value between the two groups to esnure that my models will be able to tell the difference between the two groups of images. Looking at the histogram below, there does seem to be a distinct difference in pixel value between the two sets of images:
 
 ![download-4](https://user-images.githubusercontent.com/115309980/232612178-739f0e2d-b3be-440a-96ae-25b3016ea061.png)
 
