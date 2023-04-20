@@ -82,25 +82,27 @@ Next, I would recommend the WHO train field works, local doctors, and microscopi
 
 ## File Tree
 
-├── [Malaria_Data]()
+├── [Data](https://github.com/88ngreen88/Final_Project_Repo/tree/main/Data)
 
-├── cell_images
+├── [cell_images](https://github.com/88ngreen88/Final_Project_Repo/tree/main/cell_images)
 
-├── streamlit_images
+├── [streamlit_images](https://github.com/88ngreen88/Final_Project_Repo/tree/main/streamlit_images)
 
-├── .gitignore
+├── [.gitignore](https://github.com/88ngreen88/Final_Project_Repo/blob/main/.gitignore)
 
-├── Final_Clean_Notebook.ipynb
+├── [Final_Clean_Notebook.ipynb](https://github.com/88ngreen88/Final_Project_Repo/blob/main/Final_Clean_Notebook.ipynb)
+
+├── [Final Capstone Presentation.pdf](https://github.com/88ngreen88/Final_Project_Repo/blob/main/Malaria%20Capstone%20Presentation.pdf)
 
 ├── ReadME.md
 
-├── Streamlit.ipynd
+├── [Streamlit.ipynd](https://github.com/88ngreen88/Final_Project_Repo/blob/main/Streamlit.ipynb)
 
-├── Streamlit.py
+├── [Streamlit.py](https://github.com/88ngreen88/Final_Project_Repo/blob/main/Streamlit.py)
 
-├── cnn_model_3(3).pkl
+├── [cnn_model_3(3).pkl](https://github.com/88ngreen88/Final_Project_Repo/blob/main/cnn_model_3(3).pkl)
 
-└── requirements.txt
+└── [requirements.txt](https://github.com/88ngreen88/Final_Project_Repo/blob/main/requirements.txt)
 
 
 
