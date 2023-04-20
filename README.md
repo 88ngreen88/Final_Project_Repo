@@ -3,7 +3,7 @@
 
 ## Overview
 
-For this project I wanted to create a CNN model that will assist the World Health Orgization stream line their current malaria detection efforts.
+For this project I wanted to create a CNN model that will help the World Health Orgization stream line their current malaria detection efforts.
 
 ## Background on Malaria
 
@@ -22,7 +22,7 @@ In the United States, malaria was once a significant public health problem in th
 
 ## Diagnosing Malaria with CNN
 
-For my capstone project, I wanted to create a convolutinal neural network (CNN) that could help diagnose a blood sample smear as postitive or negative for Malaria. Despite reduced global funding for malaria, the WHO still wants to reduce global malaria incidence by at least 90% by 2030.  My hope is that by launching my CNN through Streamlit, the model could help the WHO by assisting microscopist and field workers in achieving faster, cheaper and more accurate malaria  diagnoses. In addition, if the WHO are able to use this model to diagnose more patients with Malaria, then this allows the WHO to more accurately and intentionally distribute malaria aid in areas impacted the most by malaria outbreaks.
+For my capstone project, I wanted to create a convolutinal neural network (CNN) that could help diagnose a blood sample smear as postitive or negative for Malaria. Despite reduced global funding for malaria, the WHO still wants to reduce global malaria incidence by at least 90% by 2030.  My hope is that by launching my CNN through Streamlit, the model could help the WHO by assisting microscopist and field workers in achieving faster and more accurate malaria  diagnoses. In addition, if the WHO are able to use this model to diagnose more patients with Malaria, then this allows the WHO to more accurately and intentionally distribute malaria aid in areas impacted the most by malaria outbreaks.
 
 The model was built using Python 3 and the TensorFlow and Keras libraries.
 
@@ -34,7 +34,7 @@ The images are provided in PNG format and are divided into two subdirectories: P
 
 ![download-2](https://user-images.githubusercontent.com/115309980/232607619-9acb3814-c89f-41bc-bc1a-2768858f37ee.png)
 
-When performing EDA on the large set of images, I first noticed that all of the PNG images were different sizes, so they would need to be resized to be all the same dementions. I decided to resize all images to be 128X128. I also tried resizing all images to 224X224 but my comdel performed worse. See below for a plot showing the distribution of image sizes:
+When performing EDA on the large set of images, I first noticed that all of the PNG images were different sizes, so they would need to be resized to be all the same dimentions. I decided to resize all images to be 128X128. I also tried resizing all images to 224X224 but my models performed worse. See below for a plot showing the distribution of image sizes:
 
 ![download-3](https://user-images.githubusercontent.com/115309980/232609968-79a1fff4-9b91-424c-a30c-b2d3e440eb5a.png)
 
@@ -42,11 +42,11 @@ After preprocessing my train images, I also looked at the average pixel density 
 
 ![download-4](https://user-images.githubusercontent.com/115309980/232612178-739f0e2d-b3be-440a-96ae-25b3016ea061.png)
 
-The last EDA I performed on my model was to check for images that met the following criteria:  dark images, light images, low information images, exact duplicate images, near duplicate images, and blurry images. I did this by using a python library called ImageLab and I wanted to check for these images to ensure that all images were of good quality. When I checked my image, only one set of images came back with a problem:
+The last EDA I performed on my model was to check for images that met the following criteria:  dark images, light images, low information images, exact duplicate images, near duplicate images, and blurry images. I did this by using a python library called ImageLab and I wanted to check for these images to make sure that all the images I was training my model on were of good quality. When I checked my images, only one set of images came back with a problem:
 
 <img width="585" alt="Screenshot 2023-04-17 at 5 18 17 PM" src="https://user-images.githubusercontent.com/115309980/232612920-d1b0185f-093c-4c21-ab33-6501c6cda80c.png">
 
-These two images came back as near duplicates according to ImageLab. However, the images are not the same, so I did not discard any of my images. 
+These two images came back as near duplicates according to ImageLab. However, the images are not the same, so I did not discard any of the images in my data set. 
 
 ## Models
 
