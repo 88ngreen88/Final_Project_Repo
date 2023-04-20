@@ -50,17 +50,17 @@ These two images came back as near duplicates according to ImageLab. However, th
 
 ## Models
 
-For this project, I ran eleven different CNN models. Model details are briefly give below:
+For this project, I ran eleven different CNN models. Model details are briefly given below:
 
-<img width="786" alt="Screenshot 2023-04-17 at 7 59 29 PM" src="https://user-images.githubusercontent.com/115309980/232635818-1ffa0c74-3c32-4637-943e-924ed0fd1b17.png">
+<img width="763" alt="Screenshot 2023-04-20 at 4 08 40 PM" src="https://user-images.githubusercontent.com/115309980/233476823-0cf4b0f9-eba7-40f8-8c0d-92e339ea7c64.png">
 
 ## Choosing My Model
 
-Out of the 11 different models I ran, three models had an accuracy of around 95%. I ended up choosing Model Three as my best model because it had the fewest false negative results. See the chart below for more details on the models:
+Out of the 11 different models I ran, three models had an accuracy of around 95%. I ended up choosing Model three as my best model because it had the fewest false negative results. I prioritized having a low number of false negative tests because I do not want a patient thinking that they do not have malaria when they do have malaria. See the chart below for more details on the three best models:
 
 <img width="1439" alt="Screenshot 2023-04-19 at 1 09 15 PM" src="https://user-images.githubusercontent.com/115309980/233149462-5cadadef-4dc9-4146-8787-7ba03af2df84.png">
 
-Looking at the chart above my final model has a test accuracy of 96%. Below is the architecture of my final model:
+Looking at the chart above my final model (model 3) has a test accuracy of 96%. Below is the architecture of my final cnn model:
 
 <img width="454" alt="Screenshot 2023-04-19 at 4 44 21 PM" src="https://user-images.githubusercontent.com/115309980/233455452-ba777a29-ae73-4d94-ac61-c7aa2b56f382.png">
 
@@ -69,6 +69,7 @@ Looking at the chart above my final model has a test accuracy of 96%. Below is t
 In this project, I built a CNN model that can accurately identify malaria-infected cells in blood samples. The model achieved a test accuracy of 96%, which demonstrates its effectiveness in detecting malaria. In addition, the model was faster and simpler than transfer learning models I looked at like VGG19. By launching this model on Streamlit, workers for the WHO will be able to easily use this model. 
 
 Given that my model is categorizing  blood samples as being infected/uninfected with malaria with 96% accuracy, I would recommend use my Streamlit app.
+
 Next, I would recommend the WHO train field works, local doctors, and microscopist on how to use the Streamlit app.
 
 ### Next Steps
