@@ -1,6 +1,10 @@
 # Using convolutional neural networks to diagnose malaria
 ![quito](https://user-images.githubusercontent.com/115309980/232593816-2ff4a6ae-942c-45fa-a891-99bd010d033c.jpg)
 
+## Overview
+
+For this project I wanted to create a CNN model that will assist the World Health Orgization stream line their current malaria detection efforts.
+
 ## Background on Malaria
 
 Malaria is a parasitic disease that is spread through the saliva of infected mosquitoes. Once in the body, the malaria parasite infects and untlimatley destroys red blood cells. This disease can cause flu like symptoms in most hosts and potentially death if left untreated, especially in vulnerable populations like children. 
