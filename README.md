@@ -28,7 +28,7 @@ The model was built using Python 3 and the TensorFlow and Keras libraries.
 
 ## My Data
 
-The dataset used in this project is the Malaria Cell Images Dataset from the National Library of Medicine. The dataset contains 27,558 blood cell images with equal instances of parasitized and uninfected cells.
+The dataset used in this project is the Malaria Cell Images Dataset from the National Library of Medicine. I found this data in [kaggle](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria). The dataset contains 27,558 blood cell images with equal instances of parasitized and uninfected cells.
 
 The images are provided in PNG format and are divided into two subdirectories: Parasitized and Uninfected. The Parasitized directory contains images of blood cells infected with malaria at various stages of infections, while the Uninfected directory contains images of normal blood cells. Below are some examples of the parasitized and uninfected blood cell images in the dataset:
 
