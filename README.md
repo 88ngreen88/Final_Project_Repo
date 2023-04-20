@@ -83,14 +83,23 @@ Next, I would recommend the WHO train field works, local doctors, and microscopi
 ## file tree
 
 ├── Malaria_Data
+
 ├── cell_images
+
 ├── streamlit_images
+
 ├── .gitignore
+
 ├── Final_Clean_Notebook.ipynb
+
 ├── ReadME.md
+
 ├── Streamlit.ipynd
+
 ├── Streamlit.py
+
 ├── cnn_model_3(3).pkl
+
 └── requirements.txt
 
 
